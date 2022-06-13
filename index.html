@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <title>bg changer</title>
 </head>
 <body>
@@ -17,35 +18,6 @@
         </div>
         <button class="clearBtn">clear</button>
     </div>
-    <script>
 
-        var orange = document.querySelector('.orange');
-        var black = document.querySelector('.black');
-        var pink = document.querySelector('.pink');
-        var clearBtn = document.querySelector('.clearBtn');
-
-        orange.addEventListener('click', function(){
-            orange.style.backgroundColor = "orange";
-            black.style.backgroundColor = "rgba(0, 0, 0, 0)";
-            pink.style.backgroundColor = "rgba(0, 0, 0, 0)";
-        })
-        black.addEventListener('click', function(){
-            black.style.backgroundColor = "black";
-            orange.style.backgroundColor = "rgba(0, 0, 0, 0)";
-            pink.style.backgroundColor = "rgba(0, 0, 0, 0)";
-
-        })
-        pink.addEventListener('click', function(){
-            pink.style.backgroundColor = "pink";
-            black.style.backgroundColor = "rgba(0, 0, 0, 0)";
-            orange.style.backgroundColor = "rgba(0, 0, 0, 0)";
-        })
-        clearBtn.addEventListener('click', function(){
-            orange.style.backgroundColor = "rgba(0, 0, 0, 0)";
-            black.style.backgroundColor = "rgba(0, 0, 0, 0)";
-            pink.style.backgroundColor = "rgba(0, 0, 0, 0)";
-        })
-
-    </script>
 </body>
 </html>
